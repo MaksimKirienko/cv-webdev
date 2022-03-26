@@ -1,0 +1,40 @@
+default:
+  cache:
+    key: main-cache
+    untracked: true
+    paths:
+      - node_modules/
+
+stages:
+    - build
+    - deploy
+
+build site:
+  stage: build
+  tags:
+    - shell
+  before_script:
+    - npm install --prefer-offline --no-audit --progress=false
+  script:
+    - NODE_ENV=production npm run generate
+  artifacts:
+    paths:
+      - dist
+  only:
+    - main
+
+deploy to production:
+  stage: deploy
+  cache: []
+  environment:
+    name: production
+  before_script:
+    - eval $(ssh-agent -s)
+    - echo "$PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  script:
+    - rsync -rlptqx --safe-links --delete -e "ssh -p $PROD_PORT" dist/ $PROD_USER@$PROD_HOST:$PROD_PATH/frontend
+    - rsync -rlptqx --safe-links --delete -e "ssh -p $PROD_PORT" assets/ $PROD_USER@$PROD_HOST:$PROD_PATH/frontend/assets
+  only:
+    - main

@@ -1,0 +1,65 @@
+<template>
+  <div class="exp-cols">
+    <div class="exp-block-text block block-padded">
+      <div class="exp-pos-heading">
+        <h3>
+          Co-Founder, IT Director
+        </h3>
+        <div class="h3-sub">
+          Sep 2010 - Sep 2020
+        </div>
+        <div class="h3-sub-light">
+          Rocket Business
+          <div class="small">
+            (<a href="https://rocketbusiness.agency" target="_blank">rocketbusiness.agency</a>)
+          </div>
+        </div>
+      </div>
+      <div class="exp-text">
+        <h4>Founded the agency in 2010</h4>
+        <p>
+          with my colleges. The company provides a wide range of Internet marketing services, number of specialists ranged from 15 to 20. We have always prioritized honest relationships with our partners, transparency, and a focus on results.
+        </p>
+        <h4>Effective teams</h4>
+        <p>
+          Inside the company, we have shared the principles of turquoise companies and agile management. Professional and friendly relations within the team.
+        </p>
+        <h4>Personal selection and training</h4>
+        <p>
+          I was directly involved in the selection of IT personnel, interviews, and subsequent training. Many specialists have passed the way from junior to middle level, several reached a senior level and afterwards worked in large companies. With many of my former colleagues, I keep in touch and maintain friendly relations.
+        </p>
+        <h4>Speaker</h4>
+        <p>
+          Was a speaker for marketing events at the RSTU university, at IT venues of the city, and for commercial organizations.
+        </p>
+        <h4>Top 10</h4>
+        <p>
+          The company consistently ranks among the top 10 internet marketing agencies in Russia in terms of service quality based on customer feedback. As well as in the top 10 companies for SEO in Russia in the budget segment.
+        </p>
+        <p>
+          <a href="https://rocketbusiness.agency" target="_blank">
+            watch company website ›
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="exp-block-right">
+      <div class="exp-block-tr block">
+        <div class="exp-logos">
+          <picture>
+            <source :srcset="require(`~/assets/i/experience/rb-shot.jpg?sizes[]=1152&format=webp`).srcSet" type="image/webp">
+            <img class="exp-logos-pic" width="1366" height="1002" :src="require(`~/assets/i/experience/rb-shot.jpg?resize&size=1152`)" alt="" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="exp-block-br block">
+        <div class="exp-gal">
+          <picture>
+            <source :srcset="require(`~/assets/i/experience/rb-team.jpg?sizes[]=1364&format=webp`).srcSet" type="image/webp">
+            <img class="exp-gal-pic" width="1350" height="1398" :src="require(`~/assets/i/experience/rb-team.jpg?resize&size=1364`)" alt="" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
