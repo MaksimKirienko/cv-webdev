@@ -1,0 +1,215 @@
+{
+  "gridSize": [
+    "7",
+    "6"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "marmelad",
+    "milk",
+    "orange",
+    "cheese",
+    "shrimp",
+    "meat",
+    "grapes"
+  ],
+  "winTask": {
+    "scoreToBeat": "997",
+    "movesLimit": "25",
+    "itemsToBlow": [
+      {
+        "item": "bro",
+        "count": 10
+      },
+      {
+        "item": "apple",
+        "count": 10
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_red"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "modifier": "safe",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "modifier": "cage4",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "milk",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "cheese",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "spawner",
+        "itemName": "cheese"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes",
+        "modifier": "ice_2"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "cheese",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_red",
+        "modifier": "cage1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      }
+    ]
+  ]
+}

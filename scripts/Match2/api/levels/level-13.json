@@ -1,0 +1,275 @@
+{
+  "gridSize": [
+    "9",
+    "7"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "meat",
+    "orange",
+    "baloon_logo"
+  ],
+  "winTask": {
+    "scoreToBeat": "1800",
+    "movesLimit": "43",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "150"
+      },
+      {
+        "item": "box_metal_1",
+        "count": "24"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ]
+  ]
+}

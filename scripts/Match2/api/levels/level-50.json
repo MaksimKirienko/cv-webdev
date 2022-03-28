@@ -1,0 +1,356 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "apple",
+    "bread",
+    "grapes"
+  ],
+  "winTask": {
+    "scoreToBeat": 300,
+    "movesLimit": "42",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "24"
+      },
+      {
+        "item": "checkout",
+        "count": "30"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ]
+  ]
+}

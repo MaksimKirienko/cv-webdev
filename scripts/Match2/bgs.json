@@ -1,0 +1,46 @@
+{
+  "bgs": [
+    "linear-gradient(151.14deg, #26BF0D -1.64%, #A7DD0F 105.06%)",
+    "linear-gradient(151.14deg, #FF7A00 -1.64%, #FFC226 105.06%)",
+    "linear-gradient(151.14deg, #ED201B -1.64%, #FF8003 105.06%)",
+    "linear-gradient(341.09deg, #9FC8D8 14.53%, #A7E9FB 89.01%)",
+    "linear-gradient(360deg, #F39701 0%, #FFCB69 100%)",
+    "linear-gradient(343.23deg, #BF3D5B 11.51%, #EC5176 88.34%)",
+    "linear-gradient(180deg, #E4CEBC 0%, #BE9E8B 103.55%)",
+    "linear-gradient(0deg, #E49E4A 0%, #FFCF76 100%)",
+    "linear-gradient(160.53deg, #E49E6C 9.78%, #A26B47 83.48%)",
+    "linear-gradient(180deg, #E77BAC 0%, #CE464F 100%)",
+
+    "linear-gradient(180deg, #B2C6DF 0%, #8995A6 100%)",
+    "linear-gradient(180deg, #E3B778 0%, #B1916A 100%)",
+    "linear-gradient(180deg, #EB6940 0%, #BD462B 100%)",
+    "linear-gradient(180deg, #FB7F8E 0%, #D36272 100%)",
+    "linear-gradient(180deg, #CADEE7 0%, #A5A6AC 100%)",
+    "linear-gradient(0deg, #7390D9 0%, #98CCEA 100%)",
+    "linear-gradient(180deg, #DDDCDC 0%, #B1B1B1 100%)",
+    "linear-gradient(180deg, #DB80CF 0%, #A04682 100%)",
+    "linear-gradient(142.33deg, #CA3327 -37.76%, #FF1616 107.4%)",
+    "#FF796E",
+
+    "linear-gradient(219.82deg, #7C04F3 2.35%, #C75EE1 108.73%)",
+    "linear-gradient(156.15deg, #E22014 -9.67%, #FF8946 89.72%)",
+    "linear-gradient(207.94deg, #F4825B 8.72%, #F25B2B 91.28%)",
+    "linear-gradient(27.94deg, #04043C 8.72%, #5C1162 91.28%)",
+    "linear-gradient(79.57deg, #FC6212 22.57%, #FFA203 71.93%)",
+    "linear-gradient(250.73deg, #2DCCA6 18.64%, #755EF3 81.36%)",
+    "linear-gradient(311.61deg, rgba(255, 127, 0, 0.52) 12.41%, #CD7F32 119.72%)",
+    "linear-gradient(0deg, #494C55 0%, #15161A 100%)",
+    "linear-gradient(140.14deg, #44F4FF 3.05%, rgba(42, 44, 55, 0) 140.49%)",
+    "linear-gradient(147.14deg, #FFD90F -19.07%, rgba(249, 83, 30, 0) 112.88%)",
+
+    "linear-gradient(79.54deg, #CC00FF 14.58%, #FF61B6 92.8%)",
+    "linear-gradient(90deg, #5DB0E2 0%, #9DFFCF 100%)",
+    "linear-gradient(90deg, #72DD33 0%, #C3F85F 100%)",
+    "linear-gradient(90deg, #6133F7 0%, #A98EFF 100%)",
+    "linear-gradient(134.14deg, #32C9A5 -5.2%, rgba(83, 205, 63, 0.682292) 36.42%, rgba(126, 213, 92, 0) 83.39%)",
+    "linear-gradient(134.34deg, #326EC9 -22.1%, rgba(63, 205, 188, 0.682292) 35.22%, rgba(38, 50, 156, 0) 86.85%)",
+    "linear-gradient(133.58deg, #D442CD -34.08%, #854EBC 21.79%, rgba(56, 56, 106, 0) 86.72%)",
+    "linear-gradient(133.58deg, #5E36DC -34.08%, #8B68F9 21.79%, rgba(56, 56, 106, 0) 86.72%)",
+    "linear-gradient(301.47deg, #FFFFFF 15.97%, rgba(222, 222, 222, 0.67) 99.58%)"
+  ]
+}

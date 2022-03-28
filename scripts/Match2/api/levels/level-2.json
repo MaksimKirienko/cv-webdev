@@ -1,0 +1,234 @@
+{
+  "gridSize": [
+    "7",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "orange",
+    "marmelad",
+    "grapes",
+    "meat"
+  ],
+  "winTask": {
+    "scoreToBeat": "270",
+    "movesLimit": "18",
+    "itemsToBlow": [
+      {
+        "item": "bro",
+        "count": "4"
+      },
+      {
+        "item": "meat",
+        "count": "20"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}

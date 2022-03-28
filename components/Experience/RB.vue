@@ -16,17 +16,21 @@
         </div>
       </div>
       <div class="exp-text">
-        <h4>Founded the agency in 2010</h4>
         <p>
-          with my colleges. The company provides a wide range of Internet marketing services, number of specialists ranged from 15 to 20. We have always prioritized honest relationships with our partners, transparency, and a focus on results.
+          <b>Founded the agency in 2010</b> with my colleges. The company provides a wide range of Internet marketing services, number of specialists ranged from 15 to 20. We have always prioritized honest relationships with our partners, transparency, and a focus on results.
         </p>
         <h4>Effective teams</h4>
         <p>
-          Inside the company, we have shared the principles of turquoise companies and agile management. Professional and friendly relations within the team.
+          15–20 specialists in the agency.
+          More than 30k tasks completed by team.
+          Inside the company, we have shared the principles of turquoise companies and agile management.
+          Professional and friendly relations.
         </p>
         <h4>Personal selection and training</h4>
         <p>
-          I was directly involved in the selection of IT personnel, interviews, and subsequent training. Many specialists have passed the way from junior to middle level, several reached a senior level and afterwards worked in large companies. With many of my former colleagues, I keep in touch and maintain friendly relations.
+          Hired and train 30+ specialists.
+          I was directly involved in the selection of IT personnel, interviews, and subsequent training.
+          Many specialists have passed the way from junior to middle level, several reached a senior level and afterwards worked in large companies.
         </p>
         <h4>Speaker</h4>
         <p>
@@ -35,6 +39,7 @@
         <h4>Top 10</h4>
         <p>
           The company consistently ranks among the top 10 internet marketing agencies in Russia in terms of service quality based on customer feedback. As well as in the top 10 companies for SEO in Russia in the budget segment.
+          Maintained the profitability of the company throughout all 10 years.
         </p>
         <p>
           <a href="https://rocketbusiness.agency" target="_blank">
@@ -44,13 +49,14 @@
       </div>
     </div>
     <div class="exp-block-right">
-      <div class="exp-block-tr block">
-        <div class="exp-logos">
+      <div class="rbweb-block block">
+        <ExperienceRBWeb />
+        <!-- <div class="exp-logos">
           <picture>
             <source :srcset="require(`~/assets/i/experience/rb-shot.jpg?sizes[]=1152&format=webp`).srcSet" type="image/webp">
             <img class="exp-logos-pic" width="1366" height="1002" :src="require(`~/assets/i/experience/rb-shot.jpg?resize&size=1152`)" alt="" loading="lazy">
           </picture>
-        </div>
+        </div> -->
       </div>
       <div class="exp-block-br block">
         <div class="exp-gal">
@@ -63,3 +69,10 @@
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.rbweb-block {
+  flex-grow: 1;
+  width: 100%;
+}
+</style>

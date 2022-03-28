@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" viewBox="0 0 1920 1080">
+<defs>
+<g id="a">
+<path d="M1632 432h1v1h-1zM1799 1030h2v2h-2zM623 817h2v2h-2zM1368 816h1v1h-1zM392 774h2v2h-2zM631 587h1v1h-1zM1811 596h2v2h-2zM1110 1074h1v1h-1zM1401 284h1v1h-1zM174 948h1v1h-1zM1461 282h1v1h-1zM1355 531h2v2h-2zM427 595h1v1h-1zM419 475h2v2h-2zM1582 407h1v1h-1zM765 403h2v2h-2zM1776 424h1v1h-1zM304 746h1v1h-1zM718 784h1v1h-1zM1301 67h1v1h-1zM498 576h2v2h-2zM1173 809h2v2h-2zM1043 16h1v1h-1zM110 1017h2v2h-2zM296 195h1v1h-1zM1380 714h1v1h-1zM394 898h2v2h-2zM206 379h2v2h-2zM276 695h1v1h-1zM1619 357h2v2h-2zM973 989h2v2h-2zM542 825h2v2h-2zM578 198h2v2h-2zM1 830h1v1H1zM1825 250h1v1h-1zM853 346h1v1h-1zM247 832h1v1h-1zM1244 209h1v1h-1zM328 31h2v2h-2zM1076 876h2v2h-2zM1849 426h1v1h-1zM1790 121h2v2h-2zM346 172h1v1h-1zM795 610h2v2h-2zM896 862h2v2h-2zM134 928h1v1h-1zM35 184h2v2h-2zM1474 409h1v1h-1zM1098 168h2v2h-2zM548 988h2v2h-2zM1663 89h2v2h-2zM445 546h1v1h-1zM1800 482h2v2h-2zM998 950h2v2h-2zM1122 407h1v1h-1zM527 117h1v1h-1zM722 101h1v1h-1zM1446 217h2v2h-2zM403 508h1v1h-1zM1875 379h1v1h-1zM1542 786h1v1h-1zM1879 75h1v1h-1zM141 687h1v1h-1zM1508 450h1v1h-1zM1910 524h2v2h-2zM1713 273h1v1h-1zM5 111h2v2H5zM713 938h2v2h-2zM971 575h1v1h-1zM183 131h2v2h-2zM656 948h1v1h-1zM386 629h2v2h-2zM972 428h2v2h-2zM265 58h1v1h-1zM1492 1046h2v2h-2zM1098 368h2v2h-2zM1651 869h2v2h-2zM1531 189h2v2h-2zM1215 712h1v1h-1zM624 395h2v2h-2z"/></g><g id="e"><use xlink:href="#a"/>
+<use y="-1080" xlink:href="#a"/>
+<use x="1920" xlink:href="#a"/>
+<use x="1920" y="-1080" xlink:href="#a"/>
+</g>
+<g id="b">
+<path d="M1500 366h2v2h-2zM1334 896h3v3h-3zM1041 347h3v3h-3zM177 1072h2v2h-2zM1798 528h2v2h-2zM1353 104h2v2h-2zM454 825h3v3h-3zM281 506h3v3h-3zM654 161h3v3h-3zM406 270h3v3h-3zM1474 190h2v2h-2zM844 910h3v3h-3zM1100 324h2v2h-2zM272 49h3v3h-3zM1460 340h2v2h-2zM1798 833h3v3h-3zM1463 561h3v3h-3zM401 475h3v3h-3zM1108 511h2v2h-2zM177 905h2v2h-2z"/>
+</g>
+<g id="f">
+<use xlink:href="#b"/>
+<use y="-1080" xlink:href="#b"/>
+<use x="1920" xlink:href="#b"/>
+<use x="1920" y="-1080" xlink:href="#b"/>
+</g>
+<g id="c">
+<path d="M1186 227h4v4h-4zM832 794h5v5h-5zM703 615h4v4h-4zM1702 138h3v3h-3zM211 732h4v4h-4zM607 451h4v4h-4zM709 327h4v4h-4zM1470 1022h4v4h-4zM370 404h4v4h-4zM1871 15h5v5h-5z"/>
+</g>
+<g id="g">
+<use xlink:href="#c"/>
+<use y="-1080" xlink:href="#c"/>
+<use x="1920" xlink:href="#c"/>
+<use x="1920" y="-1080" xlink:href="#c"/>
+</g>
+<g id="d">
+<path d="M81 293h5v5h-5zM1740 596h4v4h-4zM162 521h4v4h-4zM606 542h4v4h-4zM1722 983h3v3h-3zM827 293h4v4h-4zM1021 274h4v4h-4zM1330 469h5v5h-5zM1911 1040h5v5h-5zM1391 301h4v4h-4z"/>
+</g>
+<g id="h">
+<use xlink:href="#d"/>
+<use y="-1080" xlink:href="#d"/>
+<use x="1920" xlink:href="#d"/>
+<use x="1920" y="-1080" xlink:href="#d"/>
+</g>
+</defs>
+<use xlink:href="#e">
+<animateTransform attributeName="transform" attributeType="XML" dur="140s" from="0 0" repeatCount="indefinite" to="-1920 1080" type="translate"/>
+</use>
+<use xlink:href="#f">
+<animateTransform attributeName="transform" attributeType="XML" dur="70s" from="0 0" repeatCount="indefinite" to="-1920 1080" type="translate"/>
+</use>
+<use xlink:href="#g">
+<animateTransform attributeName="transform" attributeType="XML" dur="40s" from="0 0" repeatCount="indefinite" to="-1920 1080" type="translate"/>
+</use>
+<use xlink:href="#h">
+<animateTransform attributeName="transform" attributeType="XML" dur="5s" from="0 0" repeatCount="indefinite" to="-1920 1080" type="translate"/>
+</use>
+</svg>

@@ -1,0 +1,123 @@
+.stars-block {
+  display: flex;
+  align-items: flex-end;
+
+  .star, .star-place {
+    width: 28%;
+    height: 0;
+    padding-bottom: 28%;
+
+    &:nth-child(2) {
+      width: 44%;
+      padding-bottom: 44%;
+      margin-bottom: 4%;
+    }
+  }
+}
+
+.star, .star-place {
+  position: relative;
+  background-image: url('~/assets/i/match/icons/star-g.svg?inline');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.star.active {
+  background-image: url('~/assets/i/match/icons/star.svg?inline');
+}
+
+.star-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  opacity: 0;
+  background-image: url('~/assets/i/match/icons/star.svg?inline');
+  background-repeat: no-repeat;
+}
+
+.stars, .lives {
+  position: relative;
+  background: #FFF;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 41px;
+  padding: 5px 14px 5px 35px;
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 100%;
+  color: #333;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-40%, -53%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.stars {
+  &::before {
+    width: 43px;
+    height: 43px;
+    background-image: url('~/assets/i/match/icons/star.svg?inline');
+  }
+}
+
+.lives {
+  &::before {
+    width: 40px;
+    height: 34px;
+    background-image: url('~/assets/i/match/profile/heart.svg?inline');
+  }
+}
+
+.match-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  max-width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px 15px 15px 15px;
+  box-sizing: border-box;
+  z-index: 95;
+  border-radius: 30px;
+  color: #1F1F1F;
+  font-size: 1rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  h2, h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.match-window-close {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 26px;
+  height: 26px;
+  background-image: url('~/assets/i/match/icons/x.svg?inline');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 101;
+}
+
+.match-window-subtitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 10px 0;
+}

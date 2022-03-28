@@ -1,0 +1,371 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "grapes",
+    "milk",
+    "apple",
+    "bread"
+  ],
+  "randomBalance": "3",
+  "winTask": {
+    "scoreToBeat": "1500",
+    "movesLimit": "44",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "40"
+      },
+      {
+        "item": "cage5",
+        "count": "20"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      }
+    ]
+  ]
+}

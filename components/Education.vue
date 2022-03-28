@@ -8,7 +8,10 @@
         </h2>
         <div class="h2-sub">
           I combine hard and soft skills in my education.
-          Even in management positions, I have always maintained a high level of competence in programming and technical aspects of work. I don't limit the range of knowledge, but I'm always ready to go into details if necessary to achieve the best result.
+          Even in management positions, I have always maintained a high level of
+          competence in programming and technical aspects of work. I don't limit the
+          range of knowledge, but I'm always ready to go into detail if necessary to
+          achieve the best result.
         </div>
       </div>
 
@@ -118,6 +121,7 @@
 <style lang="scss">
 .edu {
   padding-top: 55px;
+  padding-bottom: 55px;
 
   .h2-sub {
     max-width: 632px;

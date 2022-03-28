@@ -1,0 +1,59 @@
+{
+  "gridSize": [
+    "3",
+    "3"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro"
+  ],
+  "winTask": {
+    "scoreToBeat": 300,
+    "movesLimit": 30,
+    "itemsToBlow": [
+      {
+        "item": "bro",
+        "count": 10
+      },
+      {
+        "item": "apple",
+        "count": 10
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}

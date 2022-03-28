@@ -1,0 +1,404 @@
+{
+  "gridSize": [
+    "9",
+    "10"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "meat",
+    "bread",
+    "milk",
+    "bro",
+    "grapes"
+  ],
+  "winTask": {
+    "scoreToBeat": "300",
+    "movesLimit": "45",
+    "itemsToBlow": [
+      {
+        "item": "box_wood_3",
+        "count": "3"
+      },
+      {
+        "item": "meat",
+        "count": "20"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "modifier": "ice_2",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_3"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "modifier": "cage1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_red_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_3"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_3",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "meat",
+        "modifier": "cage1"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "modifier": "ice_2",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_blue_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_blue"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_3"
+      },
+      {
+        "type": "active",
+        "itemName": "milk",
+        "modifier": "ice_2"
+      },
+      {
+        "type": "active",
+        "itemName": "meat",
+        "modifier": "cage1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bro",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_2",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_yellow_2"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "meat"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "modifier": "cage1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_3"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_2"
+      },
+      {
+        "type": "active",
+        "modifier": "safe",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "cage1"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "modifier": "ice_1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "pear"
+      },
+      {
+        "type": "active",
+        "modifier": "cage1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_2"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "milk",
+        "modifier": "cage1"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_1",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_3",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_2",
+        "itemName": "meat"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "meat",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "itemName": "meat",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "meat",
+        "modifier": "cage1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ]
+  ]
+}

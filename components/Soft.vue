@@ -6,19 +6,34 @@
           Soft Skills
         </h2>
         <div class="h2-sub">
-          The best results are achieved through the interaction of all team members, each of whom is a professional in field of expertise. Aiming for the result, positive communication, critical thinking - these and other skills allow the team and the whole business to reach new qualitative levels.
+          The best results are achieved through the interaction of all team members,
+          each of whom is a professional in field of expertise. Aiming for the result,
+          positive communication, critical thinking - these and other skills allow the
+          team and the whole business to reach new levels.
         </div>
       </div>
-
       <div class="soft-cols">
         <div class="soft-icons-col">
-          <picture>
-            <source :srcset="require(`~/assets/i/soft/soft-icons.jpg?sizes[]=892&format=webp`).srcSet" type="image/webp">
-            <img class="soft-icons-pic" width="892" height="914" :src="require(`~/assets/i/soft/soft-icons.jpg?resize&size=892`)" alt="" loading="lazy">
-          </picture>
+          <div ref="prlx" class="soft-icons">
+            <div class="parallax-layer" data-depth="1.2">
+              <div class="soft-icon-1 soft-icon" v-html="require(`~/assets/i/soft/icons/1.svg?include`)" />
+            </div>
+            <div class="parallax-layer" data-depth="1.6">
+              <div class="soft-icon-2 soft-icon" v-html="require(`~/assets/i/soft/icons/2.svg?include`)" />
+            </div>
+            <div class="parallax-layer" data-depth="2.2">
+              <div class="soft-icon-3 soft-icon" v-html="require(`~/assets/i/soft/icons/3.svg?include`)" />
+            </div>
+            <div class="parallax-layer" data-depth="4">
+              <div class="soft-icon-4 soft-icon" v-html="require(`~/assets/i/soft/icons/4.svg?include`)" />
+            </div>
+            <div class="parallax-layer" data-depth="1.8">
+              <div class="soft-icon-5 soft-icon" v-html="require(`~/assets/i/soft/icons/5.svg?include`)" />
+            </div>
+          </div>
         </div>
         <div class="soft-content-col">
-          <div class="soft-lines">
+          <div ref="lines" class="soft-lines">
             <div
               v-for="(skill, skillName) in skills"
               :key="skillName"
@@ -55,6 +70,8 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import Parallax from '~/scripts/parallax'
+
 export default Vue.extend({
   data() {
     return {
@@ -66,8 +83,77 @@ export default Vue.extend({
         'Critical thinking': 0.8,
         Agility: 0.9,
         Nerd: 0.1
-      },
-      tags: ['teamwork', 'flexibility', 'time management', 'leadership', 'problem solving']
+      } as any,
+      tags: ['teamwork', 'flexibility', 'time management', 'leadership', 'problem solving'],
+      prlx: null as Parallax | null,
+      startedAnimation: false
+    }
+  },
+  mounted() {
+    if (this.$refs.prlx) {
+      this.prlx = new Parallax(this.$refs.prlx as HTMLElement, 5, 4)
+    }
+
+    window.addEventListener('scroll', this.checkStart, { passive: true })
+    // this.animateBars()
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.checkStart)
+  },
+  methods: {
+    checkStart() {
+      if (this.startedAnimation) {
+        return
+      }
+
+      if (window.scrollY + document.body.clientHeight > (this.$refs.lines as HTMLElement).offsetTop) {
+        this.animateBars()
+        this.startedAnimation = true
+      }
+    },
+    animateBars() {
+      if (this.startedAnimation) {
+        return
+      }
+      this.startedAnimation = true
+
+      const bars = document.querySelectorAll('.soft-line-bar')
+      const progress = document.querySelectorAll('.soft-line-progress')
+      const text = document.querySelectorAll('.soft-line-perc')
+
+      bars.forEach((bar, index) => {
+        (bar as HTMLElement).style.width = '0%';
+        (progress[index] as HTMLElement).style.minWidth = '0%'
+      })
+
+      const animate = (bar: HTMLElement, percent: number, progress: HTMLElement, text: HTMLElement) => {
+        console.log('animate', bar)
+        const width = percent * 100
+        const id = setInterval(frame, 15)
+        let currentWidth = 0
+
+        function frame() {
+          window.requestAnimationFrame(() => {
+            if (currentWidth >= width) {
+              clearInterval(id)
+            } else {
+              currentWidth++
+              bar.style.width = currentWidth + '%'
+              progress.style.minWidth = currentWidth + '%'
+              text.innerHTML = currentWidth + '%'
+            }
+          })
+        }
+      }
+
+      Object.keys(this.skills).forEach((skillName, index) => {
+        animate(
+          bars[index] as HTMLElement,
+          this.skills[skillName] as number,
+          progress[index] as HTMLElement,
+          text[index] as HTMLElement
+        )
+      })
     }
   }
 })
@@ -117,11 +203,69 @@ export default Vue.extend({
   }
 }
 
+.soft-icons {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+
+  .parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    pointer-events: none;
+    transition: transform 0.1s linear;
+  }
+}
+
 .soft-icons-pic {
+  position: absolute;
   width: 80%;
   height: auto;
   display: block;
   margin: 0 auto;
+  left: 10%;
+  top: 9%;
+}
+
+.soft-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+    pointer-events: all;
+
+    &:hover {
+      transform: scale(1.15);
+    }
+  }
+}
+
+.soft-icon-1 {
+  width: 22%;
+  transform: translate(-120%, -188%);
+}
+.soft-icon-2 {
+  width: 22%;
+  transform: translate(67%, -163%);
+}
+.soft-icon-3 {
+  width: 22%;
+  transform: translate(-182%, 24%);
+}
+.soft-icon-4 {
+  width: 22%;
+  transform: translate(-30%, -40%);
+}
+.soft-icon-5 {
+  width: 22%;
+  transform: translate(83%, 88%);
 }
 
 .soft-content-col {

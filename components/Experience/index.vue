@@ -7,8 +7,8 @@
           Experience
         </h2>
         <div class="h2-sub">
-          Reaching new quality and technological levels each time.
-          Achieving the best results possible. Always keep in&nbsp;touch with my&nbsp;team and&nbsp;partners.
+          Focus on business goals.
+          Always keep in&nbsp;touch with my&nbsp;team and&nbsp;partners to achieve the best results possible
         </div>
       </div>
       <ExperienceIndividual />

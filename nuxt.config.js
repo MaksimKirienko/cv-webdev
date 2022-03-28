@@ -30,6 +30,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/scripts/Match2/GameAudio.js', mode: 'client' },
     { src: '~/scripts/init.ts', mode: 'client' }
   ],
 

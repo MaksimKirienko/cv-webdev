@@ -1,0 +1,1205 @@
+{
+  "sprites": {
+    "items.png": {
+      "imageSize": [450, 1800],
+      "frameSize": [150, 150]
+    },
+    "disco-green.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "disco-blue.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "disco-yellow.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "disco-red.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "disco-purple.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "blockers.png": {
+      "imageSize": [1200, 1650],
+      "frameSize": [150, 150]
+    },
+    "power.png": {
+      "imageSize": [1050, 150],
+      "frameSize": [150, 150]
+    },
+    "modifiers.png": {
+      "imageSize": [450, 1200],
+      "frameSize": [150, 150]
+    }
+  },
+  "modifiers": {
+    "cage1": {
+      "colorBlow": "#8C8173",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 0 }
+      }
+    },
+    "cage2": {
+      "colorBlow": "#235A25",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 1 }
+      }
+    },
+    "cage3": {
+      "colorBlow": "#8C8883",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 2 }
+      }
+    },
+    "cage4": {
+      "colorBlow": "#305A1A",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 3 }
+      }
+    },
+    "cage5": {
+      "colorBlow": "#DA8C23",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 4 }
+      }
+    },
+    "ice_1": {
+      "colorBlow": "#019FB4",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        }
+      ]
+    },
+    "ice_2": {
+      "colorBlow": "#019FB4",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 5 }
+          }
+        }
+      ]
+    },
+    "ice_3": {
+      "colorBlow": "#019FB4",
+      "blockItem": true,
+      "fall": true,
+      "blow": "normal",
+      "blowNear": true,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 5 }
+          }
+        }
+      ]
+    },
+    "bubble": {
+      "colorBlow": "#68AFE6",
+      "blockItem": false,
+      "fall": false,
+      "blow": "normal",
+      "blowNear": false,
+      "blowInside": true,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 6 }
+      }
+    },
+    "safe": {
+      "colorBlow": "#505152",
+      "blockItem": true,
+      "fall": true,
+      "blow": "hard",
+      "blowNear": false,
+      "blowInside": false,
+      "spriteImageFile": "modifiers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 7 }
+      }
+    }
+  },
+  "itemTypes": {
+    "item": {
+      "fall": true,
+      "combine": true,
+      "blow": "normal",
+      "blowNear": false
+    },
+    "dummy": {
+      "fall": true,
+      "combine": false,
+      "blow": "normal",
+      "blowNear": true
+    },
+    "blocker": {
+      "fall": false,
+      "combine": false,
+      "blow": "normal",
+      "blowNear": true
+    },
+    "hardblocker": {
+      "fall": false,
+      "combine": false,
+      "blow": "hard",
+      "blowNear": false
+    },
+    "unbreakable": {
+      "fall": true,
+      "combine": false,
+      "blow": false,
+      "blowNear": false
+    },
+    "generator": {
+      "fall": false,
+      "combine": false,
+      "blow": "normal",
+      "blowNear": true
+    },
+    "power": {
+      "fall": true,
+      "combine": false,
+      "blow": "normal",
+      "blowNear": false
+    }
+  },
+  "items": {
+    "rocket_h": {
+      "type": "power",
+      "color": null,
+      "spriteImageFile": "power.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 0 }
+      }
+    },
+    "rocket_v": {
+      "type": "power",
+      "color": null,
+      "spriteImageFile": "power.png",
+      "spriteAnimations": {
+        "default": { "col": 1, "row": 0 }
+      }
+    },
+    "bomb": {
+      "type": "power",
+      "color": null,
+      "spriteImageFile": "power.png",
+      "spriteAnimations": {
+        "default": { "col": 2, "row": 0 }
+      }
+    },
+    "disco_green": {
+      "type": "power",
+      "color": "green",
+      "spriteImageFile": "disco-green.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 1, "steps": 8, "duration": 150 }
+      }
+    },
+    "disco_blue": {
+      "type": "power",
+      "color": "blue",
+      "spriteImageFile": "disco-blue.png",
+      "spriteAnimations": {
+        "default": { "col": 1, "row": 0, "steps": 8, "duration": 150 }
+      }
+    },
+    "disco_yellow": {
+      "type": "power",
+      "color": "yellow",
+      "spriteImageFile": "disco-yellow.png",
+      "spriteAnimations": {
+        "default": { "col": 2, "row": 4, "steps": 8, "duration": 150 }
+      }
+    },
+    "disco_red": {
+      "type": "power",
+      "color": "red",
+      "spriteImageFile": "disco-red.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 3, "steps": 8, "duration": 150 }
+      }
+    },
+    "disco_purple": {
+      "type": "power",
+      "color": "purple",
+      "spriteImageFile": "disco-purple.png",
+      "spriteAnimations": {
+        "default": { "col": 4, "row": 2, "steps": 8, "duration": 150 }
+      }
+    },
+    "checkout": {
+      "type": "generator",
+      "color": null,
+      "colorBlow": "#535A5E",
+      "spriteImageFile": "power.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 0 },
+        "task": { "col": 4, "row": 0 }
+      }
+    },
+    "baloon_logo": {
+      "type": "dummy",
+      "color": null,
+      "colorBlow": "#DA1E12",
+      "spriteImageFile": "power.png",
+      "spriteAnimations": {
+        "default": { "col": 5, "row": 0 },
+        "task": { "col": 6, "row": 0 }
+      }
+    },
+    "marmelad": {
+      "type": "item",
+      "color": "blue",
+      "colorBlow": "#016CEE",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 0 },
+        "clean": { "col": 1, "row": 0 },
+        "task": { "col": 2, "row": 0 }
+      }
+    },
+    "milk": {
+      "type": "item",
+      "color": "blue",
+      "colorBlow": "#016CEE",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 1 },
+        "clean": { "col": 1, "row": 0 },
+        "task": { "col": 2, "row": 1 }
+      }
+    },
+    "orange": {
+      "type": "item",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 2 },
+        "clean": { "col": 1, "row": 2 },
+        "task": { "col": 2, "row": 2 }
+      }
+    },
+    "cheese": {
+      "type": "item",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 3 },
+        "clean": { "col": 1, "row": 2 },
+        "task": { "col": 2, "row": 3 }
+      }
+    },
+    "bread": {
+      "type": "item",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 4 },
+        "clean": { "col": 1, "row": 2 },
+        "task": { "col": 2, "row": 4 }
+      }
+    },
+    "meat": {
+      "type": "item",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 5 },
+        "clean": { "col": 1, "row": 5 },
+        "task": { "col": 2, "row": 5 }
+      }
+    },
+    "shrimp": {
+      "type": "item",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 6 },
+        "clean": { "col": 1, "row": 5 },
+        "task": { "col": 2, "row": 6 }
+      }
+    },
+    "apple": {
+      "type": "item",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 7 },
+        "clean": { "col": 1, "row": 5 },
+        "task": { "col": 2, "row": 7 }
+      }
+    },
+    "bro": {
+      "type": "item",
+      "color": "green",
+      "colorBlow": "#0EAF12",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 8 },
+        "clean": { "col": 1, "row": 8 },
+        "task": { "col": 2, "row": 8 }
+      }
+    },
+    "pear": {
+      "type": "item",
+      "color": "green",
+      "colorBlow": "#0EAF12",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 9 },
+        "clean": { "col": 1, "row": 8 },
+        "task": { "col": 2, "row": 9 }
+      }
+    },
+    "eggplant": {
+      "type": "item",
+      "color": "purple",
+      "colorBlow": "#8426DD",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 10 },
+        "clean": { "col": 1, "row": 10 },
+        "task": { "col": 2, "row": 10 }
+      }
+    },
+    "grapes": {
+      "type": "item",
+      "color": "purple",
+      "colorBlow": "#8426DD",
+      "spriteImageFile": "items.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 11 },
+        "clean": { "col": 1, "row": 10 },
+        "task": { "col": 2, "row": 11 }
+      }
+    },
+    "box_card_1": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 0 }
+      }
+    },
+    "box_card_2": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 0 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 0 }
+          }
+        }
+      ]
+    },
+    "box_card_3": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 0 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 0 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 0 }
+          }
+        }
+      ]
+    },
+    "box_card_green": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#0EAF12",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 0 }
+      }
+    },
+    "box_card_blue": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#016CEE",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 4, "row": 0 }
+      }
+    },
+    "box_card_yellow": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 5, "row": 0 }
+      }
+    },
+    "box_card_red": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 6, "row": 0 }
+      }
+    },
+    "box_card_purple": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8426DD",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 7, "row": 0 }
+      }
+    },
+    "box_wood_1": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#FB9218",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 1 }
+      }
+    },
+    "box_wood_2": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#FB9218",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 1 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 1 }
+          }
+        }
+      ]
+    },
+    "box_wood_3": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#FB9218",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 1 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 1 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 1 }
+          }
+        }
+      ]
+    },
+    "box_wood_green": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#0EAF12",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 1 }
+      }
+    },
+    "box_wood_blue": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#016CEE",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 4, "row": 1 }
+      }
+    },
+    "box_wood_yellow": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 5, "row": 1 }
+      }
+    },
+    "box_wood_red": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 6, "row": 1 }
+      }
+    },
+    "box_wood_purple": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8426DD",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 7, "row": 1 }
+      }
+    },
+    "box_plastic_1": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 2 }
+      }
+    },
+    "box_plastic_2": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 2 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 2 }
+          }
+        }
+      ]
+    },
+    "box_plastic_3": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#C9904B",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 2 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 2 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 2 }
+          }
+        }
+      ]
+    },
+    "box_plastic_green": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#0EAF12",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 2 }
+      }
+    },
+    "box_plastic_blue": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#016CEE",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 4, "row": 2 }
+      }
+    },
+    "box_plastic_yellow": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#ED9C01",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 5, "row": 2 }
+      }
+    },
+    "box_plastic_red": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#DF0C0F",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 6, "row": 2 }
+      }
+    },
+    "box_plastic_purple": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8426DD",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 7, "row": 2 }
+      }
+    },
+    "box_stone_1": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#B9BAA4",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 3 }
+      }
+    },
+    "box_stone_2": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#B9BAA4",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 3 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 3 }
+          }
+        }
+      ]
+    },
+    "box_stone_3": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#B9BAA4",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 3 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 3 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 3 }
+          }
+        }
+      ]
+    },
+    "box_stone_green": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#00B300",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 3, "row": 3 }
+      }
+    },
+    "box_stone_blue": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#3541EF",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 4, "row": 3 }
+      }
+    },
+    "box_stone_yellow": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#EFCB00",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 5, "row": 3 }
+      }
+    },
+    "box_stone_red": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#DC1412",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 6, "row": 3 }
+      }
+    },
+    "box_stone_purple": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#7E00BA",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 7, "row": 3 }
+      }
+    },
+    "box_metal_1": {
+      "type": "hardblocker",
+      "color": null,
+      "colorBlow": "#7E6E5C",
+      "spriteImageFile": "blockers.png",
+      "spriteAnimations": {
+        "default": { "col": 0, "row": 4 }
+      }
+    },
+    "box_metal_2": {
+      "type": "hardblocker",
+      "color": null,
+      "colorBlow": "#7E6E5C",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 4 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 4 }
+          }
+        }
+      ]
+    },
+    "box_metal_3": {
+      "type": "hardblocker",
+      "color": null,
+      "colorBlow": "#7E6E5C",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 4 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 4 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 4 }
+          }
+        }
+      ]
+    },
+    "box_cart_1": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#CDCDCD",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        }
+      ]
+    },
+    "box_cart_2": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#CDCDCD",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 5 }
+          }
+        }
+      ]
+    },
+    "box_cart_3": {
+      "type": "blocker",
+      "color": null,
+      "colorBlow": "#CDCDCD",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 5 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 5 }
+          }
+        }
+      ]
+    },
+    "box_cart_green_1": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#41B301",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 6 }
+          }
+        }
+      ]
+    },
+    "box_cart_green_2": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#41B301",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 6 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 6 }
+          }
+        }
+      ]
+    },
+    "box_cart_green_3": {
+      "type": "blocker",
+      "color": "green",
+      "colorBlow": "#41B301",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 6 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 6 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 6 }
+          }
+        }
+      ]
+    },
+    "box_cart_blue_1": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#1291D3",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 7 }
+          }
+        }
+      ]
+    },
+    "box_cart_blue_2": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#1291D3",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 7 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 7 }
+          }
+        }
+      ]
+    },
+    "box_cart_blue_3": {
+      "type": "blocker",
+      "color": "blue",
+      "colorBlow": "#1291D3",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 7 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 7 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 7 }
+          }
+        }
+      ]
+    },
+    "box_cart_yellow_1": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#EDCC01",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 8 }
+          }
+        }
+      ]
+    },
+    "box_cart_yellow_2": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#EDCC01",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 8 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 8 }
+          }
+        }
+      ]
+    },
+    "box_cart_yellow_3": {
+      "type": "blocker",
+      "color": "yellow",
+      "colorBlow": "#EDCC01",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 8 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 8 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 8 }
+          }
+        }
+      ]
+    },
+    "box_cart_red_1": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#EF2824",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 9 }
+          }
+        }
+      ]
+    },
+    "box_cart_red_2": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#EF2824",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 9 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 9 }
+          }
+        }
+      ]
+    },
+    "box_cart_red_3": {
+      "type": "blocker",
+      "color": "red",
+      "colorBlow": "#EF2824",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 9 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 9 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 9 }
+          }
+        }
+      ]
+    },
+    "box_cart_purple_1": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8F01C0",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 10 }
+          }
+        }
+      ]
+    },
+    "box_cart_purple_2": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8F01C0",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 10 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 10 }
+          }
+        }
+      ]
+    },
+    "box_cart_purple_3": {
+      "type": "blocker",
+      "color": "purple",
+      "colorBlow": "#8F01C0",
+      "spriteImageFile": "blockers.png",
+      "stages": [
+        {
+          "spriteAnimations": {
+            "default": { "col": 0, "row": 10 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 1, "row": 10 }
+          }
+        },
+        {
+          "spriteAnimations": {
+            "default": { "col": 2, "row": 10 }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "gridSize": [
+    "7",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "orange",
+    "marmelad",
+    "meat"
+  ],
+  "winTask": {
+    "scoreToBeat": 300,
+    "movesLimit": "34",
+    "itemsToBlow": [
+      {
+        "item": "checkout",
+        "count": "16"
+      },
+      {
+        "item": "bubble",
+        "count": "16"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage2"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ]
+  ]
+}

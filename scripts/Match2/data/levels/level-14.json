@@ -1,0 +1,329 @@
+{
+  "gridSize": [
+    "9",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "marmelad",
+    "meat",
+    "baloon_logo",
+    "orange"
+  ],
+  "randomBalance": "6",
+  "winTask": {
+    "scoreToBeat": "800",
+    "movesLimit": "44",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "45"
+      },
+      {
+        "item": "checkout",
+        "count": "40"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "grapes",
+    "pear",
+    "apple",
+    "bread"
+  ],
+  "randomBalance": "5",
+  "winTask": {
+    "scoreToBeat": "1300",
+    "movesLimit": "45",
+    "itemsToBlow": [
+      {
+        "item": "bubble",
+        "count": "22",
+        "anycolor": false
+      },
+      {
+        "item": "baloon_logo",
+        "count": "14"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_red_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_purple_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_green_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_yellow_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_red_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_purple_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_green_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_yellow_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "cage5"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble",
+        "itemName": "box_cart_1"
+      }
+    ]
+  ]
+}

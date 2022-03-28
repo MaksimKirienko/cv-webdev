@@ -1,0 +1,371 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "marmelad",
+    "orange",
+    "meat"
+  ],
+  "winTask": {
+    "scoreToBeat": "600",
+    "movesLimit": "38",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "36"
+      },
+      {
+        "item": "box_wood_1",
+        "count": "36"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_1"
+      }
+    ]
+  ]
+}

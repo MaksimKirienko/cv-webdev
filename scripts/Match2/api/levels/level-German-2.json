@@ -1,0 +1,258 @@
+{
+  "gridSize": [
+    "8",
+    "7"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "marmelad",
+    "shrimp",
+    "bread"
+  ],
+  "winTask": {
+    "scoreToBeat": 1000,
+    "movesLimit": 30
+  },
+  "grid": [
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad",
+        "modifier": "cage1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "orange",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_3"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_wood_3"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "cage3"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "cheese"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "cage3"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "cheese"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_wood_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_2"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "apple",
+        "modifier": "cage1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      }
+    ]
+  ]
+}

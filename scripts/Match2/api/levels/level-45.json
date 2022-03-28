@@ -1,0 +1,352 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "grapes",
+    "apple",
+    "bread",
+    "milk"
+  ],
+  "winTask": {
+    "scoreToBeat": "800",
+    "movesLimit": "36",
+    "itemsToBlow": [
+      {
+        "item": "box_cart_1",
+        "count": "22"
+      },
+      {
+        "item": "bubble",
+        "count": "20"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}

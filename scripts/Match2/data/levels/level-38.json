@@ -1,0 +1,301 @@
+{
+  "gridSize": [
+    "8",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "pear",
+    "apple",
+    "bread",
+    "milk"
+  ],
+  "randomBalance": 10,
+  "winTask": {
+    "scoreToBeat": "1000",
+    "movesLimit": "42",
+    "itemsToBlow": [
+      {
+        "item": "box_plastic_red",
+        "count": "16",
+        "anycolor": true
+      },
+      {
+        "item": "bubble",
+        "count": "22"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ]
+  ]
+}

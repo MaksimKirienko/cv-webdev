@@ -1,7 +1,9 @@
 @import 'grid.scss';
 @import 'font.scss';
-// @import 'icons.scss';
+@import 'icons.scss';
 // @import 'swiper.scss';
+@import 'game-ui.scss';
+@import 'match.scss';
 
 html {
   scroll-behavior: smooth;
@@ -22,7 +24,11 @@ body {
   -webkit-overscroll-behavior: none;
   line-height: 130%;
 }
-
+@media (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
 @media (min-width: 992px) {
   body {
     font-size: 1.375rem;
@@ -91,11 +97,11 @@ h1 {
 
 h2 {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 @media (min-width: 360px) {
   h2 {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
 }
 @media (min-width: 992px) {
@@ -199,15 +205,16 @@ input {
   font-size: 175%;
   line-height: 100%;
   text-decoration: none;
-  background-color: #F5F5F5;
-  color: #000;
+  background-color: #006AE5;
+  color: #fff;
   border: unset;
   box-sizing: border-box;
   text-align: center;
 
   &:hover {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    background-color: #006AE5;
   }
 }
 

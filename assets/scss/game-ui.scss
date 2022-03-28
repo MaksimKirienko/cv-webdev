@@ -1,0 +1,194 @@
+.game-overlay {
+  // position: fixed;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.4);
+  // backdrop-filter: blur(6px);
+}
+
+// -- windows
+
+.game-window-container {
+  position: relative;
+  height: 100%;
+}
+
+.game-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  max-width: 300px;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px 15px 15px 15px;
+  box-sizing: border-box;
+  z-index: 60;
+  border-radius: 10px;
+  color: #1F1F1F;
+  font-size: 1rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+  h2, h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.game-window-title-plate {
+  position: absolute;
+  // width: 170px;
+  // height: 80px;
+  top: -10px;
+  left: 50%;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  transform: translate(-50%, -30%) translate3d(0, 0, 0);
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 100%;
+  text-align: center;
+  color: #fff;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 106%;
+    height: 100%;
+    left: 0;
+    top: 4px;
+    background-color: #012EFF;
+    border-radius: 8px;
+    transform: perspective(200px) rotate3d(-5, 3, 0, 19deg) skewX(10deg) translate3d(0, 0, -20px);
+    box-shadow: 5px 4px 2px rgba(102, 87, 146, 0.2);
+    z-index: 0;
+  }
+}
+
+.game-window-title-plate-inner {
+  position: relative;
+  z-index: 2;
+  transform: translate3d(0, 0, 0);
+}
+
+.game-window-close {
+  cursor: pointer;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 26px;
+  height: 26px;
+  background-image: url('~/assets/i/icons/game/x.svg?inline');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 55;
+}
+
+.game-window-subtitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+// --- stars
+
+// three stars in block
+.stars-block {
+  display: flex;
+  align-items: flex-end;
+
+  // simple star in block
+  // or place for flying .star-inner
+  .star, .star-place {
+    width: 28%;
+    height: 0;
+    padding-bottom: 28%;
+
+    &:nth-child(1) {
+      transform: rotate(-15deg);
+    }
+
+    &:nth-child(2) {
+      width: 44%;
+      padding-bottom: 44%;
+      margin-bottom: 4%;
+    }
+
+    &:nth-child(3) {
+      transform: rotate(15deg);
+    }
+  }
+}
+
+.star, .star-place {
+  position: relative;
+  background-image: url('~/assets/i/icons/game/star-g.svg?inline');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.star.active {
+  background-image: url('~/assets/i/icons/game/star.svg?inline');
+}
+
+// flying star in .star-place
+.star-inner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 100%;
+  background-image: url('~/assets/i/icons/game/star.svg?inline');
+  background-repeat: no-repeat;
+}
+
+// ui elements
+
+.game-window-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.game-window-buttons-bottom {
+  margin-top: 24px;
+  margin-bottom: -45px;
+}
+
+.game-btn-round {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  [class^="icon-"], [class*=" icon-"] {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.game-btn-round-red {
+  background: linear-gradient(180deg, #FA1259 0%, #EA0C50 100%);
+}
+
+.game-btn-round-blue {
+  background: linear-gradient(180deg, #00A2FF 0%, #005BFF 100%);
+}
+
+.game-btn-round-green {
+  background: linear-gradient(180deg, #54E783 0%, #3BC267 100%);
+}

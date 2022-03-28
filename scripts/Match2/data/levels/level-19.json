@@ -1,0 +1,290 @@
+{
+  "gridSize": [
+    "8",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "orange",
+    "eggplant",
+    "bro"
+  ],
+  "randomBalance": "2",
+  "winTask": {
+    "scoreToBeat": "1100",
+    "movesLimit": "55",
+    "itemsToBlow": [
+      {
+        "item": "box_card_1",
+        "count": "28",
+        "anycolor": true
+      },
+      {
+        "item": "box_card_1",
+        "count": "12"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "active",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_purple"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "active",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "eggplant"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_2"
+      }
+    ]
+  ]
+}

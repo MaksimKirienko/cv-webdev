@@ -1,0 +1,298 @@
+{
+  "gridSize": [
+    "8",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "marmelad",
+    "cheese",
+    "shrimp"
+  ],
+  "winTask": {
+    "scoreToBeat": "1000",
+    "movesLimit": "50",
+    "itemsToBlow": [
+      {
+        "item": "box_stone_1",
+        "count": "20"
+      },
+      {
+        "item": "box_stone_1",
+        "count": "14",
+        "anycolor": true
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_yellow"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_2"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}

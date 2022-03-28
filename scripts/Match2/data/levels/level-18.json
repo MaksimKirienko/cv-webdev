@@ -1,0 +1,273 @@
+{
+  "gridSize": [
+    "8",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "marmelad",
+    "orange",
+    "eggplant"
+  ],
+  "winTask": {
+    "scoreToBeat": "600",
+    "movesLimit": "42",
+    "itemsToBlow": [
+      {
+        "item": "baloon_logo",
+        "count": "20"
+      },
+      {
+        "item": "box_card_1",
+        "count": "16"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_card_3"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ]
+  ]
+}

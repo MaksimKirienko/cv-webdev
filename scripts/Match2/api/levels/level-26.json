@@ -1,0 +1,326 @@
+{
+  "gridSize": [
+    "9",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "milk",
+    "shrimp",
+    "pear"
+  ],
+  "winTask": {
+    "scoreToBeat": "750",
+    "movesLimit": "45",
+    "itemsToBlow": [
+      {
+        "item": "bubble",
+        "count": "28"
+      },
+      {
+        "item": "apple",
+        "count": "28"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "pear"
+      },
+      {
+        "type": "active",
+        "itemName": "milk"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "pear"
+      },
+      {
+        "type": "active",
+        "itemName": "pear"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "milk"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_blue",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_red",
+        "modifier": "bubble"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "active_empty"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_stone_green",
+        "modifier": "bubble"
+      }
+    ]
+  ]
+}

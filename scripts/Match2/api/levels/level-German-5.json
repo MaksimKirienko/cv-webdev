@@ -1,0 +1,305 @@
+{
+  "gridSize": [
+    "8",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "marmelad",
+    "orange",
+    "meat",
+    "shrimp",
+    "bread",
+    "bro"
+  ],
+  "winTask": {
+    "scoreToBeat": "250",
+    "movesLimit": "40",
+    "itemsToBlow": [
+      {
+        "item": "checkout",
+        "count": "30"
+      },
+      {
+        "item": "shrimp",
+        "count": 10
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "disco_purple"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "modifier": "ice_3",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "disco_red"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "disco_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_v"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "disco_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "meat",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "shrimp"
+      },
+      {
+        "type": "active",
+        "itemName": "disco_green"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bread"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      },
+      {
+        "type": "active",
+        "itemName": "bomb"
+      },
+      {
+        "type": "active",
+        "itemName": "rocket_h"
+      }
+    ]
+  ]
+}

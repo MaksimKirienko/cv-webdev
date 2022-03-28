@@ -12,6 +12,42 @@
   background-size: contain;
 }
 
-// .icon-sticker {
-//   background-image: url('~/assets/i/icons/common/sticker.svg?inline');
-// }
+.icon-star {
+  background-image: url('~/assets/i/icons/game/star.svg?inline');
+}
+
+.icon-timer {
+  background-image: url('~/assets/i/icons/game/timer.svg?inline');
+}
+
+.icon-timer-red {
+  background-image: url('~/assets/i/icons/game/timer-red.svg?inline');
+}
+
+.icon-timer-green {
+  background-image: url('~/assets/i/flappy/timer-green.svg?inline');
+}
+
+.icon-replay-white {
+  background-image: url('~/assets/i/icons/game/replay-white.svg?inline');
+}
+
+.icon-home {
+  background-image: url('~/assets/i/icons/game/home.svg?inline');
+}
+
+.icon-play {
+  background-image: url('~/assets/i/icons/game/play.svg?inline');
+  background-position: 70% center;
+}
+
+.icon-share {
+  background-image: url('~/assets/i/icons/common/share-w.svg?inline');
+  background-position: 0 center;
+}
+
+.icon-coin {
+  background-image: url('~/assets/i/flappy/coin.svg');
+  background-size: auto 100%;
+  background-position: 16% 0;
+}

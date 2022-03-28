@@ -1,0 +1,274 @@
+{
+  "gridSize": [
+    "8",
+    "8"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "milk",
+    "pear",
+    "cheese",
+    "shrimp"
+  ],
+  "winTask": {
+    "scoreToBeat": "900",
+    "movesLimit": "34",
+    "itemsToBlow": [
+      {
+        "item": "box_metal_1",
+        "count": "12"
+      },
+      {
+        "item": "box_plastic_1",
+        "count": "24",
+        "anycolor": true
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_green"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_blue"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_blue"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_red"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_yellow"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_metal_1"
+      }
+    ]
+  ]
+}

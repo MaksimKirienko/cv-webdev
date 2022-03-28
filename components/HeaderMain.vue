@@ -38,7 +38,7 @@
       <div
         class="header-summary"
         :style="{
-          marginTop: (75 - progress * 180 * !wideDesign) + 'px'
+          top: (75 - progress * 180 * !wideDesign) + 'px'
         }"
       >
         <div class="header-summary-name">
@@ -74,7 +74,8 @@ export default Vue.extend({
   data() {
     return {
       progress: 0,
-      wideDesign: false
+      wideDesign: false,
+      ticking: false
     }
   },
   computed: {
@@ -108,7 +109,15 @@ export default Vue.extend({
       }
     },
     handleScroll () {
-      this.progress = Math.min(1, Math.max(0, window?.scrollY - this.scrollOffset) / this.scrollMax)
+      if (this.ticking) {
+        return
+      }
+      this.ticking = true
+
+      window?.requestAnimationFrame(() => {
+        this.ticking = false
+        this.progress = Math.min(1, Math.max(0, window?.scrollY - this.scrollOffset) / this.scrollMax)
+      })
     }
   }
 })
@@ -147,6 +156,7 @@ export default Vue.extend({
   width: 90%;
   max-width: 683px;
   height: auto;
+  min-height: 50vw;
   max-height: calc(75vh - 90px);
   margin: 0 auto;
   border-radius: 30px;
@@ -166,6 +176,12 @@ export default Vue.extend({
   }
 }
 
+@media (min-width: 1512px) {
+  .header-main-kv {
+    min-height: unset;
+  }
+}
+
 .header-vac {
   position: relative;
   top: 0;
@@ -174,6 +190,7 @@ export default Vue.extend({
   font-weight: 500;
   line-height: 120%;
   margin-top: 20px;
+  will-change: opacity left;
 
   span {
     display: block;
@@ -229,6 +246,7 @@ export default Vue.extend({
   display: flex;
   flex-wrap: wrap;
   margin: 20px -10px 0 -10px;
+  will-change: opacity right;
 }
 
 .header-skills-item {
@@ -255,10 +273,10 @@ export default Vue.extend({
 
 .header-summary {
   position: relative;
-  top: 0;
-  margin: 75px auto 0 auto;
+  top: 75px;
+  margin: 0 auto;
   text-align: center;
-
+  will-change: top;
   font-size: 115%;
 }
 

@@ -1,0 +1,354 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "milk",
+    "pear",
+    "grapes",
+    "shrimp"
+  ],
+  "winTask": {
+    "scoreToBeat": "1100",
+    "movesLimit": "45",
+    "itemsToBlow": [
+      {
+        "item": "ice_1",
+        "count": "24"
+      },
+      {
+        "item": "box_plastic_1",
+        "count": "8"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "spawner",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_3",
+        "modifier": "cage4"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "modifier": "delete_modifier"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active",
+        "itemName": "baloon_logo",
+        "modifier": "ice_1"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      },
+      {
+        "type": "blank_block"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "grapes",
+    "pear",
+    "apple",
+    "bread",
+    "milk"
+  ],
+  "randomBalance": "5",
+  "winTask": {
+    "scoreToBeat": "1000",
+    "movesLimit": "50",
+    "itemsToBlow": [
+      {
+        "item": "bubble",
+        "count": "20"
+      },
+      {
+        "item": "box_cart_1",
+        "count": "44"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active_empty",
+        "modifier": "bubble"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_2"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      },
+      {
+        "type": "active",
+        "itemName": "box_cart_1"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}

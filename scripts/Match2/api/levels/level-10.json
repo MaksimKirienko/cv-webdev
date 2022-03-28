@@ -1,0 +1,216 @@
+{
+  "gridSize": [
+    "7",
+    "7"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "orange",
+    "marmelad",
+    "eggplant",
+    "meat"
+  ],
+  "winTask": {
+    "scoreToBeat": 300,
+    "movesLimit": "35",
+    "itemsToBlow": [
+      {
+        "item": "bubble",
+        "count": "25"
+      },
+      {
+        "item": "eggplant",
+        "count": "40"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active",
+        "modifier": "bubble"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "blank"
+      },
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "blank"
+      }
+    ]
+  ]
+}

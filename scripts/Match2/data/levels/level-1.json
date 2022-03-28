@@ -1,0 +1,242 @@
+{
+  "gridSize": [
+    "7",
+    "7"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "orange",
+    "marmelad",
+    "bro",
+    "grapes",
+    "meat"
+  ],
+  "randomBalance": 10,
+  "winTask": {
+    "scoreToBeat": "100",
+    "movesLimit": "16",
+    "itemsToBlow": [
+      {
+        "item": "meat",
+        "count": "8"
+      },
+      {
+        "item": "marmelad",
+        "count": 10
+      }
+    ],
+    "timeLimit": ""
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "orange"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "grapes"
+      },
+      {
+        "type": "active",
+        "itemName": "meat"
+      }
+    ]
+  ]
+}

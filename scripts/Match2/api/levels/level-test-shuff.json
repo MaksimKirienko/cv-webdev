@@ -1,0 +1,141 @@
+{
+  "gridSize": [
+    "5",
+    "5"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bro",
+    "apple",
+    "orange",
+    "marmelad",
+    "grapes"
+  ],
+  "winTask": {
+    "scoreToBeat": 1000,
+    "movesLimit": 30,
+    "itemsToBlow": [
+      {
+        "item": "bro",
+        "count": 10
+      },
+      {
+        "item": "apple",
+        "count": 10
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "orange",
+        "modifier": "safe"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "orange"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      },
+      {
+        "type": "active",
+        "itemName": "apple"
+      },
+      {
+        "type": "active",
+        "itemName": "bro"
+      },
+      {
+        "type": "active",
+        "itemName": "marmelad"
+      }
+    ]
+  ]
+}

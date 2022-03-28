@@ -1,0 +1,334 @@
+{
+  "gridSize": [
+    "9",
+    "9"
+  ],
+  "background": "main",
+  "generatorElements": [
+    "bread",
+    "apple"
+  ],
+  "randomBalance": "20",
+  "winTask": {
+    "scoreToBeat": "1400",
+    "movesLimit": 30,
+    "itemsToBlow": [
+      {
+        "item": "box_plastic_1",
+        "count": "18"
+      },
+      {
+        "item": "checkout",
+        "count": "40"
+      }
+    ]
+  },
+  "grid": [
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      }
+    ],
+    [
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      },
+      {
+        "type": "active",
+        "itemName": "checkout"
+      }
+    ],
+    [
+      {
+        "type": "spawner",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      },
+      {
+        "type": "active",
+        "itemName": "box_plastic_1",
+        "modifier": "ice_3"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "blank"
+      },
+      {
+        "type": "active"
+      }
+    ],
+    [
+      {
+        "type": "spawner"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      },
+      {
+        "type": "active"
+      }
+    ]
+  ]
+}
