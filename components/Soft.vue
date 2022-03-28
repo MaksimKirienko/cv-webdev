@@ -95,7 +95,6 @@ export default Vue.extend({
     }
 
     window.addEventListener('scroll', this.checkStart, { passive: true })
-    // this.animateBars()
   },
   destroyed() {
     window.removeEventListener('scroll', this.checkStart)

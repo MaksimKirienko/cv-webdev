@@ -1,5 +1,5 @@
 <template>
-  <section class="rbweb">
+  <section ref="main" class="rbweb">
     <div class="rbweb-header">
       <div class="rbweb-header-text">
         User friendly design solutions
@@ -30,6 +30,9 @@ export default Vue.extend({
     }
   },
   mounted() {
+    window.addEventListener('scroll', this.handleScroll, { passive: true })
+    this.handleScroll()
+
     const rockets = Array.from(document.querySelectorAll('.rbweb-rocket-white'))
     console.log(rockets)
     rockets.forEach(rocket => {
@@ -43,8 +46,25 @@ export default Vue.extend({
       rocket.removeEventListener('mouseenter', this.onFly)
       rocket.removeEventListener('animationend', this.onEnd)
     })
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
+    handleScroll() {
+      const node = this.$refs.main as HTMLElement
+      const rect = node.getBoundingClientRect()
+
+      if ((rect.top > window.innerHeight) || (rect.top < -node.clientHeight)) {
+        if (node.style.display !== 'none') {
+          window.requestAnimationFrame(() => {
+            node.style.display = 'none'
+          })
+        }
+      } else if (node.style.display !== 'block') {
+        window.requestAnimationFrame(() => {
+          node.style.display = 'block'
+        })
+      }
+    },
     onFly(e: Event) {
       const rocket = e.target as HTMLElement
       rocket.classList.add('flightOut', Math.random() >= 0.5 ? 'rbweb-rocket-white-blue' : 'rbweb-rocket-white-orange')
@@ -70,8 +90,10 @@ export default Vue.extend({
   position: relative;
   overflow: hidden;
   background:
-    // url('~/assets/i/rbweb/space.svg?inline'),
+    url('~/assets/i/rbweb/stars.png'),
     linear-gradient(90deg, #45409e 0%, #80275d 100%);
+
+  background-size: 50% 50%, auto auto
 }
 
 @media (min-width: 576px) {

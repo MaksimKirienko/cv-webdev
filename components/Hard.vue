@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="hard-cell-flappy">
-          <div class="hard-game-wrapper">
+          <div ref="flappy" class="hard-game-wrapper">
             <Flappy />
             <!-- <picture>
               <source :srcset="require(`~/assets/i/hard/flappy.jpg?sizes[]=1130&format=webp`).srcSet" type="image/webp">
@@ -122,7 +122,7 @@
           </div>
         </div>
         <div class="hard-cell-match2">
-          <div class="hard-game-wrapper">
+          <div ref="match2" class="hard-game-wrapper">
             <MatchGame v-if="matchStarted" />
             <!-- <picture>
               <source :srcset="require(`~/assets/i/hard/match2.jpg?sizes[]=1138&format=webp`).srcSet" type="image/webp">
@@ -146,11 +146,36 @@ export default Vue.extend({
   },
   mounted() {
     this.$store.commit('match/setSound', false)
-    this.$store.commit('match/startLevel', 4)
+    this.$store.commit('match/startLevel', 1)
     this.matchStarted = true
   },
   destroyed() {
     (this.$refs.hardFox as HTMLElement).remove()
+  },
+  methods: {
+    handleScroll() {
+      const nodes = [
+        this.$refs.hardFox as HTMLElement,
+        this.$refs.flappy as HTMLElement,
+        this.$refs.match2 as HTMLElement
+      ]
+
+      nodes.forEach(node => {
+        const rect = node.getBoundingClientRect()
+
+        if ((rect.top > window.innerHeight) || (rect.top < -node.clientHeight)) {
+          if (node.style.display !== 'none') {
+            window.requestAnimationFrame(() => {
+              node.style.display = 'none'
+            })
+          }
+        } else if (node.style.display !== 'block') {
+          window.requestAnimationFrame(() => {
+            node.style.display = 'block'
+          })
+        }
+      })
+    }
   }
 })
 </script>
