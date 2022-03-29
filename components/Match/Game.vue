@@ -189,7 +189,7 @@ export default {
 }
 
 .match-game {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
   display: flex;

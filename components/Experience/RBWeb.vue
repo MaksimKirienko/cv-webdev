@@ -1,5 +1,5 @@
 <template>
-  <section ref="main" class="rbweb">
+  <section class="rbweb">
     <div class="rbweb-header">
       <div class="rbweb-header-text">
         User friendly design solutions
@@ -30,11 +30,7 @@ export default Vue.extend({
     }
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll, { passive: true })
-    this.handleScroll()
-
     const rockets = Array.from(document.querySelectorAll('.rbweb-rocket-white'))
-    console.log(rockets)
     rockets.forEach(rocket => {
       rocket.addEventListener('mouseenter', this.onFly)
       rocket.addEventListener('animationend', this.onEnd)
@@ -46,25 +42,8 @@ export default Vue.extend({
       rocket.removeEventListener('mouseenter', this.onFly)
       rocket.removeEventListener('animationend', this.onEnd)
     })
-    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
-    handleScroll() {
-      const node = this.$refs.main as HTMLElement
-      const rect = node.getBoundingClientRect()
-
-      if ((rect.top > window.innerHeight) || (rect.top < -node.clientHeight)) {
-        if (node.style.display !== 'none') {
-          window.requestAnimationFrame(() => {
-            node.style.display = 'none'
-          })
-        }
-      } else if (node.style.display !== 'block') {
-        window.requestAnimationFrame(() => {
-          node.style.display = 'block'
-        })
-      }
-    },
     onFly(e: Event) {
       const rocket = e.target as HTMLElement
       rocket.classList.add('flightOut', Math.random() >= 0.5 ? 'rbweb-rocket-white-blue' : 'rbweb-rocket-white-orange')
@@ -80,6 +59,8 @@ export default Vue.extend({
 
 <style lang="scss">
 .rbweb {
+  position: absolute;
+  width: 100%;
   height: 100%;
 }
 

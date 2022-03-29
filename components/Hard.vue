@@ -13,9 +13,8 @@
       </div>
       <div class="hard-grid">
         <div class="hard-cell-fox">
-          <div class="hard-fox-wrapper">
+          <div ref="hardFox" class="hard-fox-wrapper">
             <model-viewer
-              ref="hardFox"
               class="hard-fox"
               :src="'/assets/3d/Fox.glb'"
               camera-controls
@@ -148,9 +147,15 @@ export default Vue.extend({
     this.$store.commit('match/setSound', false)
     this.$store.commit('match/startLevel', 1)
     this.matchStarted = true
+
+    window.addEventListener('scroll', this.handleScroll, { passive: true })
+    this.handleScroll()
   },
   destroyed() {
-    (this.$refs.hardFox as HTMLElement).remove()
+    if (this.$refs.hardFox) {
+      (this.$refs.hardFox as HTMLElement).remove()
+    }
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll() {
@@ -164,14 +169,18 @@ export default Vue.extend({
         const rect = node.getBoundingClientRect()
 
         if ((rect.top > window.innerHeight) || (rect.top < -node.clientHeight)) {
-          if (node.style.display !== 'none') {
+          if (node.firstChild && (node.firstChild as HTMLElement).style && (node.firstChild as HTMLElement).style.display !== 'none') {
             window.requestAnimationFrame(() => {
-              node.style.display = 'none'
+              if (node.firstChild) {
+                (node.firstChild as HTMLElement).style.display = 'none'
+              }
             })
           }
         } else if (node.style.display !== 'block') {
           window.requestAnimationFrame(() => {
-            node.style.display = 'block'
+            if (node.firstChild) {
+              (node.firstChild as HTMLElement).style.display = 'block'
+            }
           })
         }
       })

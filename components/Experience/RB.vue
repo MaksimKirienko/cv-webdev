@@ -49,7 +49,7 @@
       </div>
     </div>
     <div class="exp-block-right">
-      <div class="rbweb-block block">
+      <div ref="rbweb" class="rbweb-block block">
         <ExperienceRBWeb />
         <!-- <div class="exp-logos">
           <picture>
@@ -70,8 +70,44 @@
   </div>
 </template>
 
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll, { passive: true })
+    this.handleScroll()
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      const node = this.$refs.rbweb as HTMLElement
+      const rect = node.getBoundingClientRect()
+
+      if ((rect.top > window.innerHeight) || (rect.top < -node.clientHeight)) {
+        if (node.firstChild && (node.firstChild as HTMLElement).style.display !== 'none') {
+          window.requestAnimationFrame(() => {
+            if (node.firstChild) {
+              (node.firstChild as HTMLElement).style.display = 'none'
+            }
+          })
+        }
+      } else if (node.style.display !== 'block') {
+        window.requestAnimationFrame(() => {
+          if (node.firstChild) {
+            (node.firstChild as HTMLElement).style.display = 'block'
+          }
+        })
+      }
+    }
+  }
+})
+</script>
+
 <style lang="scss">
 .rbweb-block {
+  position: relative;
   flex-grow: 1;
   width: 100%;
 }
