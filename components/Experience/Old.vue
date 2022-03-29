@@ -16,7 +16,7 @@
           </div>
           <div class="exp-text">
             <p>
-              Produced front JS game engine. (before the release of Angular and other libs, IE6 compatible)
+              Produced front JS game engine. (before the release of Angular and other libs)
               Transferred the rendering part from the backend. Optimized speed and traffic.
               Refactor major system design with backend developers.
               Implemented a new interface and participated in the v2 major release.

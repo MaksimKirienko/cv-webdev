@@ -50,7 +50,8 @@ export default Vue.extend({
       pauseTime: 0,
       // timeToBeat: [55, 50, 45, 40], // 2 3 4 5 stars
       timeToBeat: [22, 19, 17, 15], // 2 3 4 5 stars
-      timeTotal: 45
+      // timeTotal: 45
+      timeTotal: 17
     }
   },
   computed: {
