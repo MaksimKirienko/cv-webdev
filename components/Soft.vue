@@ -126,7 +126,6 @@ export default Vue.extend({
       })
 
       const animate = (bar: HTMLElement, percent: number, progress: HTMLElement, text: HTMLElement) => {
-        console.log('animate', bar)
         const width = percent * 100
         const id = setInterval(frame, 15)
         let currentWidth = 0

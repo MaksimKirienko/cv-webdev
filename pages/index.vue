@@ -22,7 +22,7 @@ export default Vue.extend({
     return {
       meta_title: 'Maksim Kirienko CV',
       meta_description: 'Passionate Web Development. Please contact me to discuss your goals and projects, I’ll be glad to communicate 😁',
-      meta_og: 'https://cv.zoy.one/assets/i/og.jpg',
+      meta_og: 'https://cv-web.zoy.one/assets/i/og.jpg',
       show3dCard: null as any
     }
   },
@@ -31,7 +31,7 @@ export default Vue.extend({
       title: this.meta_title,
       meta: [
         { hid: 'description', name: 'description', content: this.meta_description },
-        { hid: 'og:url', property: 'og:url', content: 'https://cv.zoy.one' },
+        { hid: 'og:url', property: 'og:url', content: 'https://cv-web.zoy.one' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:image', property: 'og:image', content: this.meta_og },
         { hid: 'og:title', property: 'og:title', content: this.meta_title },

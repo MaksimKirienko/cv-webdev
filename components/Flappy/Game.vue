@@ -145,7 +145,7 @@ export default Vue.extend({
       this.game.pause()
       this.state = 'win'
 
-      console.log(`win time ${ this.timeCounter }`)
+      // console.log(`win time ${ this.timeCounter }`)
     },
     replay() {
       this.game.reset()
