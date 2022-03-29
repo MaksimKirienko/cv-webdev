@@ -360,6 +360,7 @@ export default Vue.extend({
   margin: 0 auto;
   border-radius: 30px;
   overflow: hidden;
+  transform: translate3d(0, 0, 0);
 }
 
 @media (min-width: 768px) {

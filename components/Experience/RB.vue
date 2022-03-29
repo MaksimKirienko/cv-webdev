@@ -6,7 +6,7 @@
           Co-Founder, IT Director
         </h3>
         <div class="h3-sub">
-          Sep 2010 - Sep 2020
+          Jan 2010 - Sep 2020
         </div>
         <div class="h3-sub-light">
           Rocket Business
@@ -17,7 +17,7 @@
       </div>
       <div class="exp-text">
         <p>
-          <b>Founded the agency in 2010</b> with my colleges. The company provides a wide range of Internet marketing services, number of specialists ranged from 15 to 20. We have always prioritized honest relationships with our partners, transparency, and a focus on results.
+          <b>Founded the agency in 2010</b> with my colleague. The company provides a wide range of Internet marketing services, number of specialists ranged from 15 to 20. We have always prioritized honest relationships with our partners, transparency, and a focus on results.
         </p>
         <h4>Effective teams</h4>
         <p>
@@ -43,7 +43,7 @@
         </p>
         <p>
           <a href="https://rocketbusiness.agency" target="_blank">
-            watch company website ›
+            Look at company website ›
           </a>
         </p>
       </div>

@@ -2,24 +2,6 @@
   <div class="exp-old">
     <div class="block block-padded">
       <div class="exp-old-container">
-        <div class="exp-old-wide">
-          <div class="exp-pos-heading">
-            <h3>
-              Lead SEO Specialist
-            </h3>
-            <div class="h3-sub">
-              Jan 2010 - Sep 2010
-            </div>
-            <div class="h3-sub-light">
-              ID-System
-            </div>
-          </div>
-          <div class="exp-text">
-            <p>
-              Showed consistently high results in the quality of site optimization. Over 80% keywords in TOP average.
-            </p>
-          </div>
-        </div>
         <div class="exp-old-half">
           <div class="exp-pos-heading">
             <h3>
@@ -83,16 +65,17 @@
 
 .exp-old-wide, .exp-old-half {
   flex: 0 0 100%;
-  margin-top: 60px;
+  margin-bottom: 30px;
 
-  &:first-child {
-    margin-top: 0;
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 
 @media(min-width: 768px) {
   .exp-old-half {
     flex: 0 0 calc(50% - 61px);
+    margin-bottom: 0;
   }
 }
 </style>

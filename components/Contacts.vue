@@ -7,7 +7,7 @@
           Contacts
         </h2>
         <div class="contacts-h-sub">
-          Look forward to contacting you.
+          Looking forward to contacting you.
           <br>
           All the best &#128521;
         </div>

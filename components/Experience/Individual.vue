@@ -48,7 +48,7 @@
         </p>
         <p>
           <a href="/#skills">
-            watch my skills ›
+            Check out my skills ›
           </a>
         </p>
       </div>

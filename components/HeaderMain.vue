@@ -31,7 +31,7 @@
         <div class="header-skills-item">Marketing</div>
         <div class="header-skills-item">
           <a href="/#skills">
-            watch all skills ›
+            all skills ›
           </a>
         </div>
       </div>
