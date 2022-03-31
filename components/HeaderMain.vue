@@ -38,7 +38,7 @@
       <div
         class="header-summary"
         :style="{
-          top: (75 - progress * 180 * !wideDesign) + 'px'
+          top: (75 - progress * 140 * !wideDesign) + 'px'
         }"
       >
         <div class="header-summary-name">
@@ -128,7 +128,6 @@ export default Vue.extend({
   position: relative;
   overflow: hidden;
   margin-top: 80px;
-  margin-bottom: 80px;
 
   h1 {
     font-size: 10vw;
@@ -139,7 +138,6 @@ export default Vue.extend({
 @media (min-width: 768px) {
   .header-main {
     margin-top: 90px;
-    margin-bottom: 120px;
 
     h1 {
       font-size: 80px;
@@ -275,6 +273,7 @@ export default Vue.extend({
   position: relative;
   top: 75px;
   margin: 0 auto;
+  padding-bottom: 80px;
   text-align: center;
   will-change: top;
   font-size: 115%;
@@ -283,6 +282,11 @@ export default Vue.extend({
 @media (min-width: 576px) {
   .header-summary {
     font-size: 125%;
+  }
+}
+@media (min-aspect-ratio: 4/5) {
+  .header-summary {
+    padding-bottom: 180px;
   }
 }
 
