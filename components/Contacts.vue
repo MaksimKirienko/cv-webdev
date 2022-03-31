@@ -52,6 +52,12 @@
               <a href="https://www.instagram.com/vijenerm/" target="_blank">@vijenerm</a>
             </div>
           </div>
+          <div class="contacts-item">
+            <div class="contacts-icon" v-html="require('assets/i/icons/github.svg?include')" />
+            <div class="contacts-item-text">
+              <a href="https://github.com/MaksimKirienko/cv-webdev" target="_blank">@MaksimKirienko</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -62,6 +62,7 @@
           <a class="header-summary-icon" target="_blank" href="mailto:maxim.kirienko@gmail.com" v-html="require('assets/i/icons/email.svg?include')" />
           <a class="header-summary-icon" target="_blank" href="https://www.linkedin.com/in/vijener/" v-html="require('assets/i/icons/linkedin.svg?include')" />
           <a class="header-summary-icon" target="_blank" href="https://www.instagram.com/vijenerm/" v-html="require('assets/i/icons/inst.svg?include')" />
+          <a class="header-summary-icon" target="_blank" href="https://github.com/MaksimKirienko/cv-webdev" v-html="require('assets/i/icons/github.svg?include')" />
         </div>
       </div>
     </div>
