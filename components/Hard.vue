@@ -160,7 +160,7 @@ export default Vue.extend({
   methods: {
     handleScroll() {
       const nodes = [
-        this.$refs.hardFox as HTMLElement,
+        // this.$refs.hardFox as HTMLElement,
         this.$refs.flappy as HTMLElement,
         this.$refs.match2 as HTMLElement
       ]
