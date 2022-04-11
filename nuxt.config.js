@@ -41,6 +41,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@aceforth/nuxt-optimized-images'
@@ -77,6 +78,23 @@ export default {
       plugins: [
         { name: 'removeViewBox', active: false }
       ]
+    }
+  },
+
+  pwa: {
+    icon: {
+      source: '[srcDir]/[staticDir]/icon.jpg',
+      fileName: 'icon.jpg',
+      purpose: ['any']
+    },
+    meta: {
+      ogTitle: 'Maksim Kirienko CV',
+      ogImage: 'https://cv-web.zoy.one/assets/i/og.jpg'
+    },
+    manifest: {
+      name: 'Maksim Kirienko CV',
+      background_color: '#FFFFFF',
+      theme_color: '#FFFFFF'
     }
   },
 
