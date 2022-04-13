@@ -26,13 +26,13 @@
           Inside the company, we have shared the principles of turquoise companies and agile management.
           Professional and friendly relations.
         </p>
-        <h4>Personal selection and training</h4>
+        <h4>It staff recruitment, adaptation and training</h4>
         <p>
-          Hired and train 30+ specialists.
-          I was directly involved in the selection of IT personnel, interviews, and subsequent training.
+          Hired and trained 30+ specialists.
+          Was directly involved in the selection of IT personnel, interviews, and subsequent training.
           Many specialists have passed the way from junior to middle level, several reached a senior level and afterwards worked in large companies.
         </p>
-        <h4>Speaker</h4>
+        <h4>Conference Speaker</h4>
         <p>
           Was a speaker for marketing events at the RSTU university, at IT venues of the city, and for commercial organizations.
         </p>

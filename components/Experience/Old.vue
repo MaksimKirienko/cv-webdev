@@ -37,7 +37,7 @@
           </div>
           <div class="exp-text">
             <p>
-              Started as a web developer and quickly moved to a team lead and then to a senior developer position (5 developer team).
+              Started as a web developer, changed position to a team lead and then to a senior developer (5 developer team).
               Participated in the development of the company's own CMS with components drag&drop wisywig ajax editor. Developed 10+ client sites, SEO.
             </p>
           </div>

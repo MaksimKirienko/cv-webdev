@@ -17,16 +17,18 @@
       <div class="exp-text">
         <p>
           Launched 30+ web marketing projects with the “Yode”
-          (<a href="https://yode.co" target="_blank">yode.co</a>) partner.
-          In collaboration with major brands: Pyaterocha & Magnit retail chains, UNGA agency, Coke collab, Brawl Stars collab, Sony Pictures Monster Vacation collab & more.
+          (<a href="https://yode.co" target="_blank">yode.co</a>).
+          In partnership with major brands: Pyaterochka retail chain (15,354 stores), Magnit (12,434 stores),
+          UNGA agency, Coca Cola collab, Brawl Stars collab, Sony Pictures Monster Vacation collab & more.
           Webview integration in applications, promo pages, games and gamification, 3d technologies in the web.
         </p>
         <p>
-          Evolve web direction of the business For “Yode” partner.
-          Increased number of web projects from 3-5/year to 20+. Quality standards, UX/UI, optimization.
+          Evolve web direction of the business for “Yode” partner.
+          Increased number of web projects from 3-5/year to 20+.
+          Envolved in quality standards development for web design and frontend, UX/UI, tech optimization.
         </p>
         <p>
-          Solved technically complex tasks with a short time required.
+          Solved technically complex tasks with tight deadlines.
           As an example, for the “Antepa” partner, in one month redesign &
           refactor the Django site of the chain of dental clinics, fixed data uploads.
         </p>

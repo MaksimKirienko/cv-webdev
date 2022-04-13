@@ -7,11 +7,10 @@
           Education
         </h2>
         <div class="h2-sub">
-          I combine hard and soft skills in my education.
-          Even in management positions, I have always maintained a high level of
-          competence in programming and technical aspects of work. I don't limit the
-          range of knowledge, but I'm always ready to go into detail if necessary to
-          achieve the best result.
+          Combine hard and soft skills in my education.
+          Red Diploma in Computer Science, group leader at the university.
+          Participation in mathematics, physics, and programming competitions.
+          Read business literature and take training courses on udemy / udacity.
         </div>
       </div>
 
