@@ -76,7 +76,7 @@ export default Vue.extend({
   data() {
     return {
       skills: {
-        Turquoise: 1,
+        Teal: 1,
         Empathy: 0.9,
         Management: 0.7,
         Design: 0.7,

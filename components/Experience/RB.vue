@@ -23,7 +23,7 @@
         <p>
           15–20 specialists in the agency.
           More than 30k tasks completed by team.
-          Inside the company, we have shared the principles of turquoise companies and agile management.
+          Inside the company, we have shared the principles of teal companies and agile management.
           Professional and friendly relations.
         </p>
         <h4>It staff recruitment, adaptation and training</h4>
