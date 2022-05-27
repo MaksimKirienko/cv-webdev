@@ -22,8 +22,8 @@
                 Tbilisi, Georgia
                 <br>
                 <div class="contacts-relocation">
-                  Searching for a remote / hybrid <br>
-                  position with relocation &#128293;
+                  Searching for a remote or<br>
+                  hybrid position with relocation &#128293;
                 </div>
               </div>
             </div>
